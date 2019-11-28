@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Portfolio</title>
+<meta name="viewport" content="width=device-width">
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="https://kit.fontawesome.com/57d74fb915.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imgs/beba.jpg')">
+	
+	<header id="header">		
+			<div id="headerTop">
+				<div class="wrapper">
+						<div class="headerContact">
+							<span><i class="fas fa-phone-square"></i> 066/8856225</span>
+							<span><i class="fas fa-at"></i> jeliceva93@gmail.com</span>
+						</div>
+						<div class="headerSocial"> 
+							<a href="https://www.linkedin.com/in/zorica-jelic-zj1406993/"><i class="fab fa-linkedin"></i></a>
+							<a href="https://www.instagram.com/jeliczorica8/?hl=sr"><i class="fab fa-instagram"></i></a>
+						</div> 
+						
+				</div><!-- end .wrapper -->
+		</div>
+		
+		<div id="headerBottom">
+				<div class="wrapper">
+					<div id="logo">
+						<a href="index.html">
+						<img src="imgs/hedgys.png" alt="Logo">
+						</a>
+					</div><!-- end #logo -->
+					<nav id="nav">
+					<ul>
+						<li><a href="index.html">About</a></li>
+						<li><a href="index.html #work">Work</a></li>
+						<li><a href="kontakt.html">Contact</a></li>
+					</ul>
+					</nav>
+				
+				</div><!-- end .wrapper -->
+			</div><!-- end #headerBottom -->
+	</header>
+	
+	<article id="hero" class="negative">
+				<div class="wrapper">
+			
+		  			<h1>MY PORTFOLIO</h1>
+		 				
+				</div>
+	</article>
+	
+	<section id="products">
+	
+	<div class="wrapper">
+	
+	<div class="productsWrap">	
+		<article class="product product1">
+						<span><i class="fas fa-images"></i></span>
+						<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('slika1','','imgs/beba.jpg',1)"><img id="slika1" src="imgs/Zorica Jelic_beba žirafa.jpg" alt="giraffe"></a></p>
+						<p>Knowledge of different techniques for painting vector objects, their contours, and the skills of managing different types of colors and the organization of different patterns.</p>
+						
+		</article>
+				
+		<article class="product product1">
+					<span><i class="fas fa-images"></i></span>
+		  <p><img src="imgs/tomato.jpg" alt="tomato"></p>
+			<p>The skill of editing vector paths, basic and complex transformation of vector objects.Working with Gradient Mesh Tool.</p>
+					
+	  </article>
+		
+		<article class="product product1">
+						<span><i class="fas fa-images"></i></span>
+						<p><img src="imgs/dog.jpg" alt="dog"></p>
+						<p> Knowledge of vector drawing techniques for simple and complex geometric shapes, as well as the ability to select vector objects and the points that form them.</p>
+		</article>
+		
+		<article class="product product1">
+						<span><i class="fas fa-comment-dots"></i></span>
+		  <p>The starting point of any project is a good sketch and a good preparation. In addition to the above mentioned skills, I also have good communication with printing companies and I appreciate and understand their part of work.</p>
+        <ul>  <ul>
+            <li>Knowledge of techniques in working with raster elements in Illustrator</li>
+            <li>Ability to create different types of text objects</li>
+            <li>Skill for styling text and paragraphs</li>
+            <li>Ability to create and prepare documents for print or web</li>
+          </ul></ul>
+        </article>		
+	</div>	
+	</div><!-- end .wrapper -->
+</section><!-- end #products -->
+	
+<footer id="footer">
+		<div class="wrapper">
+	
+				<p>Copyright &copy; HEDGEHOGdesign</p>
+	
+		</div><!-- end .wrapper -->
+	</footer> 
+
+</body>
+</html>
