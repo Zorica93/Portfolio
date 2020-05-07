@@ -76,7 +76,7 @@ a:active {
 		display: inline-block;
 		font-size: 12px;
 		font-weight: 400;
-		letter-spacing: 1px;
+		letter-spacing: 3px;
 		line-height: 1;
 		padding: 17px 33px 15px;
 		margin: 28px 0;
@@ -114,12 +114,16 @@ a:active {
 	
 .headerContact span {
 	display: block;
+	font-size: 16px;
 	margin: 12px 5px;
 }
 .headerSocial {
-	font-size: 22px;
+	font-size: 25px;
 	margin: 12px 5px 5px;
 	
+}
+.linkedin {
+	margin-right: 20px;
 }
 
 #nav {
@@ -156,13 +160,17 @@ a:active {
 }
 
 #hero {
-	background: url("imgs/backg.jpg") center center / cover no-repeat fixed;
+	background: url("imgs/cover2.jpg") center center / cover no-repeat fixed;
 	padding: 70px 0;
 	text-align: center;
 	font-size: 16px;
 }
 #hero h1 {
 	text-shadow: 5px 5px 7px #000;
+	color: #fff;
+}
+
+#hero p {
 	color: #fff;
 }
 
@@ -195,11 +203,13 @@ a:active {
 	transform: translateX(-25px);
 }
 
+
+
 #about {
 	background: url("imgs/certi.png") center center / contain no-repeat fixed;
 	padding: 180px 0;
 	margin: 10px 0;
-	height: 300px;
+	height: 200px;
 }
 #aboutWrap {
 	background: rgba(251,251,251,0.100);
@@ -322,7 +332,7 @@ textarea {
 }
 }
 	
-@media screen and (min-width:1281px){
+@media screen and (min-width:1300px){
 	.wrapper {
 		width: 1200px;
 	}
